@@ -5,6 +5,7 @@ document.body.prepend (square)
 
 document.querySelector ("div").classList.add ("border").innerHTML
 
+
 square.addEventListener("mouseover",function() {
     square.style.backgroundColor = "#0B25E3";
 })

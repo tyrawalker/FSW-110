@@ -1,0 +1,23 @@
+html {
+    background-color: aquamarine;
+}
+
+#calc {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 5px solid black;
+    max-width: 60%;
+    padding: 5px;
+    margin: 10%;
+
+}
+
+#calc>div{
+    background-color: grey;
+    border: 5px solid black;
+    text-align: center;
+    padding: 2px; 
+}

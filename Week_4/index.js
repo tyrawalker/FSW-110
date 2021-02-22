@@ -3,13 +3,13 @@ square.textContent = "Im a box"
 square.style.textAlign = "center"
 document.body.prepend (square)
 
-document.querySelector ("div").classList.add ("border").innerHTML
+document.querySelector ("div").classList.add ("border")
 
 
-square.mouseover = function() {
+square.addEventListener("mouseover", function() {
     const rndCol = "#0B25E3";
     square.style.backgroundColor = rndCol;
-}
+})
 
 square.addEventListener("mousedown", function () {
     square.style.backgroundColor = "#E30B2C";
